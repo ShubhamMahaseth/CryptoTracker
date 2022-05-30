@@ -25,8 +25,7 @@ const BottomSheetData = props => {
       </View>
       <View style={styles.priceSpace}>
         <Text style={styles.priceWrapper}>
-          {'\u20B9'}
-          {props.items.current_price.toFixed(3)}
+          {'\u20B9'} {props.items.current_price.toFixed(3)}
         </Text>
         <View>
           <Text style={[styles.text, {color: setColor}]}>
@@ -65,7 +64,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   priceWrapper: {
-    marginLeft: 15,
+    marginLeft: 54,
     fontSize: 25,
     color: 'black',
     fontWeight: 'bold',
