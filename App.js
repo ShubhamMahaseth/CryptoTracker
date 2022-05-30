@@ -1,11 +1,12 @@
-import React from 'react'
-import Sample from './src/Sample';
+import React from 'react';
+import FirstScreen from './src/FirstScreen';
 
-const App=()=>{
-  return(<>
-  <Sample/>
-  </>)
-}
+const App = () => {
+  return (
+    <>
+      <FirstScreen />
+    </>
+  );
+};
 
 export default App;
-
