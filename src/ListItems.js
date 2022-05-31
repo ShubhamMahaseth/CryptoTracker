@@ -54,7 +54,8 @@ const ListItems = props => {
           },
           container: {
             elevation: 20,
-            borderRadius: 18,
+            borderTopLeftRadius: 18,
+            borderTopRightRadius: 18,
             shadowRadius: 20,
             shadowColor: '#000',
             shadowOpacity: 0.5,
